@@ -24,10 +24,10 @@ var a2 = new Foo(cd);
 a1.doSomething();
 
 function mySecondRandomFunction () {
-    print("this is another random irrelevant function.");
+    console.log("this is another random irrelevant function.");
 }
 
 function myRandomFunction () {
-    print("this is a random irrelevant function!");
+    console.log("this is a random irrelevant function!");
     mySecondRandomFunction();
 }
